@@ -11,3 +11,45 @@ h1{
 .doc{
     visibility: hidden;
 }
+@keyframes neon{
+    from{
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to{
+        filter: drop-shadow(0 0 30px var(--cor-neon));
+    }
+}
+.img1, .insta, .dc, .git, .JavaScript, .html, .css, .doc, .Linux{
+    animation: neon 3s alternate infinite ease-in-out;
+}
+.img1{
+    --cor-neon: #00FF00;
+}
+.insta{
+    --cor-neon: #F08080;
+}
+.dc{
+    --cor-neon:#6495ED;
+}
+.git{
+    --cor-neon:#572a05;
+}
+.html{
+    --cor-neon:#FF8C00;
+}
+.css{
+    --cor-neon:#0f9efd;
+}
+.JavaScript{
+    --cor-neon:yellow; 
+}
+.doc{
+    --cor-neon:rgb(63, 105, 243);
+}
+.Linux{
+    --cor-neon:white;
+}
+
+
+
+
