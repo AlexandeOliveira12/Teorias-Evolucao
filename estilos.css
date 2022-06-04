@@ -4,9 +4,8 @@ body {
     background-color: rgb(0, 0, 0);
     color:rgb(255, 255, 255);
 }
-h1{
-    color:rgb(255, 255, 255)
-}
+
+/*Efeito Scrool Reveal*/
 .BoasVindas, .BoasVindas2, .Memes, .infojs, .infojs2, .infopy, .infopy2, .infoso, .LiWi, .IntroLi, .VanLi, .IntroWi, .VanWi, .Happy, .Criador, .contato, .Lingua, .SO, .CF,  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .insta, .dc, .git, .devicon-linux-plain, .html, .css, .JavaScript, .div1, .div2,
 .doc{
     visibility: hidden;
@@ -19,6 +18,8 @@ h1{
         filter: drop-shadow(0 0 30px var(--cor-neon));
     }
 }
+
+/*Neon nas imagens*/
 .img1, .insta, .dc, .git, .JavaScript, .html, .css, .doc, .Linux{
     animation: neon 3s alternate infinite ease-in-out;
 }
@@ -32,7 +33,7 @@ h1{
     --cor-neon:#6495ED;
 }
 .git{
-    --cor-neon:#572a05;
+    --cor-neon:#612203;
 }
 .html{
     --cor-neon:#FF8C00;
@@ -48,6 +49,58 @@ h1{
 }
 .Linux{
     --cor-neon:white;
+}
+
+/*Efeito Boas vindas 1 */
+.BoasVindas::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.BoasVindas:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.BoasVindas::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset:  0 0 0 0;
+    background: #FF0043;
+    z-index: -1;
+    transition: transform .3s ease;
+}
+.BoasVindas{
+    position: relative;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/*Efeito Boas vindas 2 */
+.BoasVindas2::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.BoasVindas2:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.BoasVindas2::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset:  0 0 0 0;
+    background: #FF0043;
+    z-index: -1;
+    transition: transform .3s ease;
+}
+.BoasVindas2{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
 }
 
 
