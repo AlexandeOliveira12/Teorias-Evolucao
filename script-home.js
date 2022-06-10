@@ -1,3 +1,6 @@
+function hardware() {
+    window.location.href = "home.html";
+}
 //ScrollReveal
 window.sr = ScrollReveal({ reset: true});
 

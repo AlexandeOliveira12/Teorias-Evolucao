@@ -6,7 +6,7 @@ body {
 }
 
 /*Efeito Scrool Reveal*/
-.BoasVindas, .BoasVindas2, .Memes, .infojs, .infojs2, .infopy, .infopy2, .infoso, .LiWi, .IntroLi, .VanLi, .IntroWi, .VanWi, .Happy, .Criador, .contato, .Lingua, .SO, .CF,  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .insta, .dc, .git, .devicon-linux-plain, .html, .css, .JavaScript, .div1, .div2,
+.BoasVindas, .BoasVindas2, .infojs, .infojs2, .infopy, .infopy2, .infoso, .LiWi, .IntroLi, .VanLi, .IntroWi, .VanWi, .Happy, .Criador, .contato, .Lingua, .SO, .CF,  .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .insta, .dc, .git, .devicon-linux-plain, .html, .css, .JavaScript, .div1, .div2,
 .doc{
     visibility: hidden;
 }
@@ -101,6 +101,11 @@ body {
     font-size: 30px;
     color: white;
     cursor: pointer;
+}
+.botao-hardware{
+    text-decoration: none;
+    border: 3px solid #ed4b65;
+    color: #ffffff;
 }
 
 
