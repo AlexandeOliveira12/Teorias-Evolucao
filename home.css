@@ -107,6 +107,45 @@ body {
     border: 3px solid #ed4b65;
     color: #ffffff;
 }
+/*Links Menu*/
+.btn-hardware{
+    text-decoration: none;
+    border: 3px solid #ed4b65;
+    color: #ffffff;
+    margin-left: 15px;
+}
+.btn-podcast{
+    text-decoration: none;
+    border: 3px solid #ed4b65;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 100px;
+    margin-right: 11px;
+}
+.tech-site{
+    margin-right: 360px;
+    font-size: 26px;
+}
+.btn-cursos{
+    text-decoration: none;
+    border: 3px solid #ed4b65;
+    color: #ffffff;
+    margin-left: 30px;
+}
+.btn-meme{
+    text-decoration: none;
+    border: 3px solid #ed4b65;
+    color: #ffffff;
+    margin-left: 15px;
+    
+}
+.btn-link-cursos{
+    text-decoration: none;
+    border: 3px solid #ed4b65;
+    color: #ffffff;
+    margin-left: 520px;
+    
+}
 
 
 

@@ -1,6 +1,15 @@
 function hardware() {
     window.location.href = "home.html";
 }
+function podcasts() {
+    window.location.href = "podcasts.html";
+}
+function memes(){
+    window.location.href = "memes.html"
+}
+function cursos() {
+    window.location.href = "cursos.html"
+}
 //ScrollReveal
 window.sr = ScrollReveal({ reset: true});
 
