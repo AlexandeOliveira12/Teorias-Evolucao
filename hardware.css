@@ -1,4 +1,4 @@
-.btn-link-processor, .btn-link-hd, .btn-link-ssd, .btn-link-motherboard, .btn-link-memoria,.btn-link-cooler{
+.btn-link-processor, .btn-link-hd, .btn-link-ssd, .btn-link-motherboard, .btn-link-memoria,.btn-link-cooler, .link-h55-especi, .link-i5-especi{
     text-decoration: none;
     color: #0083fd;
 }
@@ -47,6 +47,7 @@
 }
 .img-tech{
     --cor-neon: #000000;
+    cursor: pointer;
 }
 .insta{
     --cor-neon: #F08080;
