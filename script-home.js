@@ -10,6 +10,9 @@ function memes(){
 function cursos() {
     window.location.href = "cursos.html"
 }
+function linguagens() {
+    window.location.href = "linguagens.html"
+}
 //ScrollReveal
 window.sr = ScrollReveal({ reset: true});
 
