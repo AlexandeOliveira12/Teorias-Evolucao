@@ -18,11 +18,11 @@ body {
 }
 
 /*Neon nas imagens*/
-.img1, .insta, .dc, .git, .JavaScript, .html, .css, .doc, .Linux{
+.img1, .insta, .dc, .git, .doc, .Linux{
     animation: neon 3s alternate infinite ease-in-out;
 }
 .img1{
-    --cor-neon: #00FF00;
+    --cor-neon: #c3c4c3;
 }
 .insta{
     --cor-neon: #F08080;
@@ -106,12 +106,6 @@ body {
     color: #ffffff;
 }
 /*Links Menu*/
-.btn-hardware{
-    text-decoration: none;
-    border: 3px solid #ed4b65;
-    color: #ffffff;
-    margin-left: 15px;
-}
 .btn-podcast{
     text-decoration: none;
     border: 3px solid #ed4b65;
@@ -124,11 +118,11 @@ body {
     margin-right: 360px;
     font-size: 26px;
 }
-.btn-cursos{
+.btn-darwinismo{
     text-decoration: none;
     border: 3px solid #ed4b65;
     color: #ffffff;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 .btn-meme{
     text-decoration: none;
@@ -143,7 +137,7 @@ body {
     color: #ffffff;
     
 }
-.btn-linguagens-dicas{
+.btn-lamarkismo{
     text-decoration: none;
     border: 3px solid #ed4b65;
     color: #ffffff;

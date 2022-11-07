@@ -1,17 +1,11 @@
-function hardware() {
-    window.location.href = "home.html";
-}
 function podcasts() {
     window.location.href = "podcasts.html";
 }
-function memes(){
-    window.location.href = "memes.html"
+function darwinismo() {
+    window.location.href = "darwinismo.html"
 }
-function cursos() {
-    window.location.href = "cursos.html"
-}
-function linguagens() {
-    window.location.href = "linguagens.html"
+function lamarkismo() {
+    window.location.href = "lamarkismo.html"
 }
 //ScrollReveal
 window.sr = ScrollReveal({ reset: true});
@@ -19,8 +13,6 @@ window.sr = ScrollReveal({ reset: true});
 sr.reveal('.BoasVindas', {duration:1500});
 
 sr.reveal('.BoasVindas2', {duration:1500});
-
-sr.reveal('Memes', {duration:1700});
 
 sr.reveal('.infojs', {duration:1500});
 
@@ -44,11 +36,7 @@ sr.reveal('.VanWi', {duration:1500});
 
 sr.reveal('.Happy', {duration:1500});
 
-sr.reveal('.Criador', {duration:1500});
-
 sr.reveal('.contato', {duration:1500});
-
-sr.reveal('.Lingua', {duration:1500});
 
 sr.reveal('.SO', {duration:1500});
 
@@ -85,12 +73,6 @@ sr.reveal('.dc', {duration:1700});//discord
 sr.reveal('.git', {duration:1700});//GitHub
 
 sr.reveal('.devicon-linux-plain', {duration:1700});//Logo linux
-
-sr.reveal('.html', {duration:1700});//language html
-
-sr.reveal('.css', {duration:1700});//language css
-
-sr.reveal('.JavaScript', {duration:1700});//language JavaScript
 
 sr.reveal('.div1', {duration:1000});//Divisão 1
 
