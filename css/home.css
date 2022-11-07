@@ -122,27 +122,29 @@ body {
     text-decoration: none;
     border: 3px solid #ed4b65;
     color: #ffffff;
+    margin-left: 150px;
     margin-left: 5px;
-}
-.btn-meme{
-    text-decoration: none;
-    border: 3px solid #ed4b65;
-    color: #ffffff;
-    margin-left: 15px;
-    
 }
 .btn-link-cursos{
     text-decoration: none;
     border: 3px solid #ed4b65;
     color: #ffffff;
-    
+    margin-left: 300px;
+    margin-right: 5px;
 }
 .btn-lamarkismo{
     text-decoration: none;
     border: 3px solid #ed4b65;
     color: #ffffff;
-    margin-left: 400px;
-    margin-right: 15px;
+    margin-left: 300px;
+    margin-right: 12px;
+}
+.btn-bibliografia{
+    text-decoration: none;
+    border: 3px solid #ed4b65;
+    color: #ffffff;
+    margin-left: 0px;
+    margin-right: 5px;
 }
 .link-py{
     text-decoration: none;

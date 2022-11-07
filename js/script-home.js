@@ -7,6 +7,9 @@ function darwinismo() {
 function lamarkismo() {
     window.location.href = "lamarkismo.html"
 }
+function bibliografia() {
+    window.location.href = "bibliografia.html";
+}
 //ScrollReveal
 window.sr = ScrollReveal({ reset: true});
 
